@@ -23,7 +23,7 @@
   <parent>
     <artifactId>maven-scm</artifactId>
     <groupId>org.apache.maven.scm</groupId>
-    <version>1.9.5IVUp02</version>
+    <version>1.9.5IVUp03-SNAPSHOT</version>
   </parent>
 
   <artifactId>maven-scm-managers</artifactId>
