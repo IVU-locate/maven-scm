@@ -116,6 +116,9 @@ public class SvnDiffCommand extends AbstractDiffCommand implements SvnCommand {
 			}
 		}
 
+		// IVU specific: show no context lines
+		cl.createArg().setValue("-x -U0");
+
 		return cl;
 	}
 }
